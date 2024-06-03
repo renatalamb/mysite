@@ -1,1 +1,0 @@
-from mysite.blog.models.post import Post
