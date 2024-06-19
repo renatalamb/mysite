@@ -37,9 +37,9 @@ def post_detail(request, slug):
         request,
         template_name,
         {
-            "post": post,
-            "comments": comments,
-            "new_comment": new_comment,
-            "comment_form": comment_form,
+            'post': post,
+            'comments': comments,
+            'new_comment': new_comment,
+            'comment_form': comment_form,
         },
     )
